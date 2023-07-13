@@ -13,8 +13,8 @@ Afficher le 4ème élément du tableau
 Doublez toutes les valeurs du tableau dans une variable tableauBis
 Afficher le tableauBis */
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.exo2 = void 0;
-const exo2 = () => {
+exports.brief_1_exo_2 = void 0;
+const brief_1_exo_2 = () => {
     console.log('Exo 2');
     let tableau = [];
     let tableauBis = [];
@@ -32,4 +32,4 @@ const exo2 = () => {
         console.log(tableauBis[index]);
     }
 };
-exports.exo2 = exo2;
+exports.brief_1_exo_2 = brief_1_exo_2;

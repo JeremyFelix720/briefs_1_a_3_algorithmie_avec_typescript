@@ -1,15 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const exo1_1 = require("./exo1");
-// A Supprimer
-console.log('Hello TypeScript');
-let i = 0;
-i++;
-if (i < 2) {
-    i += 3;
-}
-else {
-    i += 2;
-}
-console.log('affichage de i', i);
-(0, exo1_1.exo1)();
+const exo_4_1 = require("./brief_1/exo_4");
+(0, exo_4_1.brief_1_exo_4)();
+/* brief_2_debutants(); */
+/* brief_2_avance(); */
+/* brief_3_experts(); */
+/* utiliser la commande : "npm run dev" dans le dossier racine pour que les fichiers puissent s'executer. */ 

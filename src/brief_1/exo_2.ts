@@ -1,4 +1,3 @@
-"use strict";
 /* Exercice 2 - Les tableaux
 
 Créer un tableau qui contient les nombres de 1 à  10
@@ -12,24 +11,27 @@ Afficher le dernier élément du tableau
 Afficher le 4ème élément du tableau
 Doublez toutes les valeurs du tableau dans une variable tableauBis
 Afficher le tableauBis */
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.exo2 = void 0;
-const exo2 = () => {
+
+
+export const brief_1_exo_2 = () => {
     console.log('Exo 2');
-    let tableau = [];
-    let tableauBis = [];
+
+    let tableau : number[] = [];
+    let tableauBis : number[] = [];
     let longueurTableau = 0;
+
     for (let index = 0; index < 10; index++) {
-        tableau[index] = index + 1;
-        tableauBis[index] = (index + 1) * 2;
+        tableau[index] = index+1;
+        tableauBis[index] = (index+1)*2;
         longueurTableau++;
     }
+
     console.log('Longueur de tableau : ', longueurTableau);
     console.log('Premier élément de tableau : ', tableau[0]);
-    console.log('Dernier élément de tableau : ', tableau[longueurTableau - 1]);
+    console.log('Dernier élément de tableau : ', tableau[longueurTableau-1]);
+
     console.log('Contenu de tableauBis :');
     for (let index = 0; index < longueurTableau; index++) {
         console.log(tableauBis[index]);
     }
-};
-exports.exo2 = exo2;
+}

@@ -1,0 +1,65 @@
+# Exercices Brief TypeScript
+
+## Exercice 1 - Les variables
+
+crÃ©er une variable a qui contient le nombre 5
+crÃ©er une variable b qui contient le nombre 1
+afficher deux logs pour indiquer si ces variables sont supÃ©rieures Ã  PI
+et qui est la plus grande des deux valeurs (utiliser une ternaire)
+
+## Exercice 2 - Les tableaux
+
+CrÃ©er un tableau qui contient les nombres de 1 Ã  10
+1 - en initialisant une variable
+2 - en utilisant une boucle
+3 - en utilisant un new Array, fill et map
+
+Afficher la longueur du tableau
+Afficher le premier Ã©lÃ©ment du tableau
+Afficher le dernier Ã©lÃ©ment du tableau
+Afficher le 4Ã¨me Ã©lÃ©ment du tableau
+doublez toutes les valeurs du tableau dans une variable tableauBis
+Afficher le tableauBis
+
+## Exercice 3 - 
+
+On a un stock de foin qui contient 800kg de foin.
+On a 2 moutons qui mangent 500g de foin par jour.
+Un des mouton est transformÃ© en gigot au bout de 1000 jours.
+Combien de temps le stock de foin va-t-il durer ?
+
+MÃªme exercice si le stock est de 20 kg 
+MÃªme exercice si le nombre de mouton est de 5.
+
+## Exercice 4 - Les Ã©lections
+
+```typescript
+const candidats = ["lepeigne", "melangeons", "macreau", "varousselle", "paicvaissrelle", "poutoutout", "hidalgogo"];
+const votes = [];
+```
+
+1. Remplir le tableau de votes du premier tour avec 1000 votes alÃ©atoires
+Afficher le nombre de votes pour chaque candidat
+Afficher le nom du candidat qui a le plus de votes
+Afficher les noms des candidats qui passent au deuxiÃ¨me tour
+
+2. Nous ne sommes plus en dÃ©mocratie, paicvaissrelle rachÃ¨te des voix Ã  lepeigne:
+10â‚¬ par voix, Elle a un budget de 1000â‚¬, combien de voix peut-elle acheter ?
+
+3. Simulez le deuxiÃ¨me tour avec 1000 votes alÃ©atoires entre les deux premiers candidats
+N'oubliez pas, paicvaissrelle peut acheter des voix aux electeurs de lepeigne s'il lui reste de l'argent.
+Si lepeigne passe au deuxiÃ¨me tour avec paicvaissrelle, elle lui pique des voix.
+Si lepeigne ne pas au deuxiÃ¨me tour, elle dÃ©marre avec, au maximum les voix de lepeigne au premier tour.
+
+4. Simulez les votes avec ce tableau de sondage :
+``` typescript
+const sondage = [
+    { candidat: "lepeigne", voix: 21 },
+    { candidat: "melangeons", voix: 19 },
+    { candidat: "macreau", voix: 21 },
+    { candidat: "varousselle", voix: 3 },
+    { candidat: "paicvaissrelle", voix: 1 },
+    { candidat: "poutoutout", voix: 1 },
+    { candidat: "hidalgogo", voix: 1 },
+];
+```
